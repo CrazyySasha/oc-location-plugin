@@ -1,0 +1,16 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        span: auto
+        label: 'Название'
+        type: text
+    includes:
+        span: auto
+        label: 'Включает в себя'
+        type: text
+    
+    children:
+        type: partial

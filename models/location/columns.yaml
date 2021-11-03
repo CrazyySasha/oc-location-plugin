@@ -1,0 +1,12 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+  
+    name:
+        label: Наименование
+        searchable: true
+    includes:
+        label: Включает в себя
+        searchable: true
