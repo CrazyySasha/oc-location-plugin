@@ -1,5 +1,5 @@
 {
-    "name": "crazy/location-plugin",
+    "name": "crazy/oc-location-plugin",
     "type": "october-plugin",
     "description": "No description provided yet...",
     "require": {
