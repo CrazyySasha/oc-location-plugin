@@ -15,7 +15,7 @@ class CreateLocationsTable extends Migration
             $table->increments('id');
             
             $table->string('name');
-            $table->text('includes');
+            // $table->text('includes');
             
             $table->integer('parent_id')->nullable();
             $table->integer('nest_left')->nullable();
