@@ -3,6 +3,6 @@ children:
     view:
         list: $/crazy/location/models/location/columns.yaml
         toolbarButtons: add|remove
-        scope: forChildrens
+        
     
   

@@ -1,6 +1,4 @@
-<?php
-
-namespace Crazy\Location\Models;
+<?php namespace Crazy\Location\Models;
 
 use Model;
 
@@ -73,9 +71,4 @@ class Location extends Model
     public $morphMany = [];
     public $attachOne = [];
     public $attachMany = [];
-
-    public function scopeForChildrens($q)
-    {
-        dump($this);
-    }
 }
