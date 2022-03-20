@@ -5,8 +5,5 @@
 columns:
   
     name:
-        label: Наименование
-        searchable: true
-    includes:
-        label: Включает в себя
+        label: Название
         searchable: true

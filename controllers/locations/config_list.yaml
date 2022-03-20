@@ -47,3 +47,4 @@ toolbar:
         prompt: backend::lang.list.search_prompt
 structure:
     showTree: true
+    showReorder: true

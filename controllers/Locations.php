@@ -1,7 +1,10 @@
-<?php namespace Crazy\Location\Controllers;
+<?php
+
+namespace Crazy\Location\Controllers;
 
 use BackendMenu;
 use Backend\Classes\Controller;
+use System\Classes\SettingsManager;
 
 /**
  * Locations Backend Controller
@@ -32,7 +35,7 @@ class Locations extends Controller
     {
         parent::__construct();
 
-        BackendMenu::setContext('Crazy.Location', 'location', 'locations');
+        BackendMenu::setContext('October.System', 'system', 'settings');
+        SettingsManager::setContext('Crazy.Location', 'locations');
     }
-   
 }

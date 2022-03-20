@@ -96,10 +96,10 @@ class Plugin extends PluginBase
     public function registerSettings()
     {
         return [
-            'location' => [
+            'locations' => [
                 'label'       => 'Локации',
                 'description' => 'Управление локациями пользователей.',
-                'category'    => 'Пользователи',
+                'category'    => 'Локации',
                 'icon'        => 'icon-globe',
                 'url'         => Backend::url('crazy/location/locations'),
                 'order'       => 500,
