@@ -3,7 +3,18 @@
 # ===================================
 
 columns:
-  
+    id:
+        label: ID
+        type: number
+        width: 70px
+    is_active:
+        label: Актиывность
+        type: switch
     name:
         label: Название
         searchable: true
+
+    children_name:
+        label: Включет в себя
+        relation: children
+        select: name

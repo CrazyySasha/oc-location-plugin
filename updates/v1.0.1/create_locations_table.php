@@ -1,4 +1,6 @@
-<?php namespace Crazy\Location\Updates;
+<?php
+
+namespace Crazy\Location\Updates;
 
 use Schema;
 use October\Rain\Database\Schema\Blueprint;
@@ -13,10 +15,10 @@ class CreateLocationsTable extends Migration
     {
         Schema::create('crazy_location_locations', function (Blueprint $table) {
             $table->increments('id');
-            
+
             $table->string('name');
             // $table->text('includes');
-            
+            $table->boolean('is_active')->default(false);
             $table->integer('parent_id')->nullable();
             $table->integer('nest_left')->nullable();
             $table->integer('nest_right')->nullable();

@@ -3,14 +3,19 @@
 # ===================================
 
 fields:
+    is_active:
+        label: Активность
+        type: switch
+
     name:
         span: auto
         label: Название
         type: text
+
     # includes:
     #     span: auto
     #     label: 'Включает в себя'
     #     type: text
-    
+
     # children:
     #     type: partial
