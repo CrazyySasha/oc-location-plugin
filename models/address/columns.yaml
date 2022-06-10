@@ -1,0 +1,17 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    formatted:
+        label: Форматированный
+        type: text
+    lat:
+        label: Долгота
+        type: number
+    lng:
+        label: Широта
+        type: number

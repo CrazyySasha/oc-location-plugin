@@ -1,3 +1,4 @@
 1.0.1: 
   - First version of Location
   - v1.0.1/create_locations_table.php
+  - v1.0.1/create_addresses_table.php

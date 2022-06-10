@@ -1,0 +1,23 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    is_active:
+        label: Активность
+        type: switch
+
+    formatted:
+        label: Форматированный
+        type: text
+        span: full
+    lat:
+        label: Широта
+        type: number
+        span: auto
+
+    lng:
+        label: Долгота
+        type: number
+        span: auto

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Address
+
+# Model Form Field configuration
+form: $/crazy/location/models/address/fields.yaml
+
+# Model Class name
+modelClass: Crazy\Location\Models\Address
+
+# Default redirect location
+defaultRedirect: crazy/location/addresses
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: crazy/location/addresses/update/:id
+    redirectClose: crazy/location/addresses
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: crazy/location/addresses
+    redirectClose: crazy/location/addresses
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
